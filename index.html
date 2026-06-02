@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Schoolhouse Gym Ahoghill — County Antrim's only official Hammer Strength training facility. Elite coaching, InBody scans, Results Club. Join from £34.99/month. No contract.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Schoolhouse Gym | Co. Antrim's Only Hammer Strength Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Schoolhouse Gym">
+  <meta property="og:title" content="Schoolhouse Gym | Co. Antrim's Only Hammer Strength Gym">
+  <meta property="og:description" content="County Antrim's only official Hammer Strength training facility in Ahoghill, Ballymena. Join from £34.99/month. No contract.">
+  <meta property="og:url" content="https://maogtn.github.io/schoolhouse-gym/">
+  <meta property="og:image" content="https://maogtn.github.io/schoolhouse-gym/favicon.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthClub",
+    "name": "Schoolhouse Gym",
+    "description": "County Antrim's only official Hammer Strength training facility in Ahoghill, Ballymena.",
+    "url": "https://maogtn.github.io/schoolhouse-gym/",
+    "telephone": "+442825567841",
+    "email": "info@schoolhousegym.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Unit 8, 58 Cullybackey Link Rd",
+      "addressLocality": "Ahoghill",
+      "addressRegion": "County Antrim",
+      "postalCode": "BT42 1LA",
+      "addressCountry": "GB"
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"05:00","closes":"22:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"06:00","closes":"16:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:00","closes":"16:00"}
+    ],
+    "priceRange": "££"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ENTRY MODAL -->
+  <div class="entry-modal" id="entry-modal" role="dialog" aria-modal="true">
+    <div class="entry-modal__backdrop"></div>
+    <div class="entry-modal__inner">
+      <div class="entry-modal__logo"><span class="logo-s">School</span><span class="logo-h">house</span>&nbsp;<span class="logo-g">GYM</span></div>
+      <span class="entry-modal__badge">Co. Antrim&rsquo;s Only Hammer Strength Training Centre</span>
+      <h2 class="entry-modal__title">TRANSFORM YOUR BODY.<br><span class="text-red">TRANSFORM YOUR LIFE.</span></h2>
+      <p class="entry-modal__sub">Family-first community. World-class Hammer Strength equipment. Elite coaching. Real results — from just £34.99/month.</p>
+      <div class="entry-modal__stats">
+        <div class="entry-stat"><strong>5am</strong><span>Opens Mon&ndash;Fri</span></div>
+        <div class="entry-stat"><strong>#1</strong><span>Hammer Strength Gym in Co. Antrim</span></div>
+        <div class="entry-stat"><strong>£34.99</strong><span>Per Month No Contract</span></div>
+      </div>
+      <div class="entry-modal__ctas">
+        <a href="#download-app" class="btn btn--red btn--lg btn--full" id="modal-join">Join Now &mdash; Download the App</a>
+        <button class="entry-modal__skip" id="modal-skip">Explore the gym first &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo"><span class="logo-s">School</span><span class="logo-h">house</span>&nbsp;<span class="logo-g">GYM</span></a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#personal-training">Coaches</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav__mobile-cta"><a href="#download-app" class="btn btn--red">Join Now</a></li>
+      </ul>
+      <a href="#download-app" class="btn btn--red nav__cta">Join Now</a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__video-wrap" aria-hidden="true">
+        <video class="hero__video" autoplay muted loop playsinline poster="images/gym-7.jpg">
+          <source src="videos/hero.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero__bg"></div>
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <span class="hero__badge fade-in">Ahoghill &middot; Ballymena &middot; County Antrim</span>
+            <h1 class="hero__title fade-in">BUILT FOR<br><span class="text-red">RESULTS.</span><br>BUILT FOR YOU.</h1>
+            <p class="hero__sub fade-in">County Antrim&rsquo;s only official Hammer Strength training facility. Elite coaching, inclusive community, and results you can measure.</p>
+            <div class="hero__ctas fade-in">
+              <a href="#download-app" class="btn btn--red btn--lg">Join for £34.99/mo</a>
+              <a href="#about" class="btn btn--ghost btn--lg">Discover More</a>
+            </div>
+            <div class="hero__proof fade-in">
+              <div class="proof-item"><strong>#1</strong><span>Hammer Strength Facility in Co. Antrim</span></div>
+              <div class="proof-divider" aria-hidden="true"></div>
+              <div class="proof-item"><strong>5am</strong><span>Earliest Open &mdash; Mon to Fri</span></div>
+              <div class="proof-divider" aria-hidden="true"></div>
+              <div class="proof-item"><strong>£34.99</strong><span>Per Month &mdash; No Contract</span></div>
+            </div>
+          </div>
+          <div class="hero__cards fade-in" aria-hidden="true">
+            <div class="hero-card hero-card--hammer">
+              <div class="hero-card__dot"></div>
+              <div class="hero-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="10" width="4" height="4" rx="1"/><rect x="18" y="10" width="4" height="4" rx="1"/><rect x="7" y="8" width="3" height="8" rx="1"/><rect x="14" y="8" width="3" height="8" rx="1"/><line x1="6" y1="12" x2="7" y2="12"/><line x1="17" y1="12" x2="18" y2="12"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+              </div>
+              <div>
+                <div class="hero-card__title">Official Training Centre</div>
+                <div class="hero-card__sub">Hammer Strength &mdash; Co. Antrim Exclusive</div>
+              </div>
+            </div>
+            <div class="hero-card hero-card--hours">
+              <div class="hero-card__label">Opening Hours</div>
+              <div class="hours-row"><span>Mon &ndash; Fri</span><strong>5am &ndash; 10pm</strong></div>
+              <div class="hours-row"><span>Saturday</span><strong>6am &ndash; 4pm</strong></div>
+              <div class="hours-row"><span>Sunday</span><strong>10am &ndash; 4pm</strong></div>
+            </div>
+            <div class="hero-card hero-card--join">
+              <div class="hero-join-price"><strong>£34.99</strong><span>/mo</span></div>
+              <div class="hero-join-note">No contract &bull; No joining fee</div>
+              <a href="#download-app" class="btn btn--red btn--full btn--sm">Join Today</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-cue" aria-hidden="true">
+        <div class="scroll-dot"></div><div class="scroll-dot"></div><div class="scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- BRAND LOGOS -->
+    <section class="brand-logos" aria-label="Equipment brands">
+      <div class="container">
+        <p class="brand-logos__label">World-class equipment from</p>
+        <div class="brand-logos__strip">
+          <div class="brand-logo brand-logo--hs">Hammer<br>Strength<span>&#174;</span></div>
+          <div class="brand-logo brand-logo--watson">Watson<br>Weights</div>
+          <div class="brand-logo brand-logo--jordan">JORDAN<span>&#174;</span><br>Fitness</div>
+          <div class="brand-logo brand-logo--inbody">In<span>Body</span></div>
+          <div class="brand-logo brand-logo--plyo">JORDAN<span>&#174;</span><br>Battle Ropes</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY SCHOOLHOUSE — 3 PILLARS -->
+    <section class="pillars section">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Why Schoolhouse Gym</span>
+          <h2>No Gimmicks. <span class="text-red">Just Results.</span></h2>
+          <p>Three reasons Schoolhouse Gym is the best training decision you&rsquo;ll make.</p>
+        </div>
+        <div class="pillars__grid carousel-on-mobile" data-carousel>
+          <div class="pillar-card fade-in">
+            <div class="pillar-card__badge">Co. Antrim Exclusive</div>
+            <div class="pillar-card__num">01</div>
+            <h3>World-Class Equipment</h3>
+            <p>The only official Hammer Strength Training Centre in County Antrim. Train on machines no other local gym can offer &mdash; alongside Watson weights, JORDAN&reg; free weights up to 80kg, and a full conditioning suite.</p>
+            <div class="pillar-card__stat"><strong>#1</strong><span>Hammer Strength Gym in Co. Antrim</span></div>
+          </div>
+          <div class="pillar-card pillar-card--featured fade-in">
+            <div class="pillar-card__num">02</div>
+            <h3>Elite, Personal Coaching</h3>
+            <p>Clinically informed, bespoke plans from coaches who are genuinely invested in your progress. Not just a programme &mdash; a partnership. Every session, every milestone, every result.</p>
+            <div class="pillar-card__stat"><strong>100%</strong><span>Bespoke coaching plans</span></div>
+          </div>
+          <div class="pillar-card fade-in">
+            <div class="pillar-card__num">03</div>
+            <h3>Real Community</h3>
+            <p>A gym where you&rsquo;re known by name. Family-first values built into everything we do. No egos, no judgement &mdash; just people working hard together and getting real results.</p>
+            <div class="pillar-card__stat"><strong>300+</strong><span>Members &amp; counting</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__content fade-in">
+            <span class="section__tag">Our Story</span>
+            <h2>More Than a Gym.<br><span class="text-red">A Family.</span></h2>
+            <p class="about__lead">We built Schoolhouse Gym around one simple belief: everyone deserves access to elite fitness in a place that feels like home.</p>
+            <p>Located in Ahoghill and serving Ballymena, Cullybackey, Kells, Broughshane, Portglenone and beyond &mdash; we&rsquo;re County Antrim&rsquo;s only official Hammer Strength training facility. Our elite coaching team delivers bespoke, clinically informed training plans designed around your goals.</p>
+            <p>You&rsquo;re not just a number here. You&rsquo;re family.</p>
+            <div class="about__actions">
+              <a href="#download-app" class="btn btn--red">Join the Family</a>
+              <a href="#personal-training" class="btn btn--outline-white">Meet Our Coaches</a>
+            </div>
+          </div>
+          <div class="about__founder fade-in">
+            <div class="about__founder-photo">
+              <img src="images/matt-millar.jpg" alt="Matt Millar — Founder, Schoolhouse Gym" loading="lazy">
+            </div>
+            <div class="about__founder-card">
+              <div class="about__founder-quote">
+                &ldquo;I wanted to build somewhere I&rsquo;d actually want to train. Somewhere with world-class kit, coaches who genuinely care, and an atmosphere where everyone feels they belong. That&rsquo;s Schoolhouse Gym.&rdquo;
+              </div>
+              <div class="about__founder-sig">
+                <strong>Matt Millar</strong>
+                <span>Founder &amp; Head Coach</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__values fade-in">
+          <div class="value-card">
+            <div class="value-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h4>Connected Community</h4>
+            <p>A family-first approach where every member belongs from day one.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+            <h4>Results Driven</h4>
+            <p>Clinically informed plans built entirely around your personal goals.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h4>Respect &amp; Integrity</h4>
+            <p>No fads, no shortcuts. Honest coaching that delivers lasting results.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+            <h4>Good Vibes Only</h4>
+            <p>An inclusive, welcoming atmosphere for every fitness level.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <h4>Accountability</h4>
+            <p>Your coaches track your progress and celebrate every milestone with you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACILITIES / TRAINING ZONES -->
+    <section class="zones section section--dark" id="facilities">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag section__tag--red">Training Zones</span>
+          <h2>Every Zone. <span class="text-red">Every Goal.</span></h2>
+          <p>World-class equipment across six purpose-built training areas.</p>
+        </div>
+        <div class="zones__grid fade-in">
+
+          <div class="zone-card zone-card--feature" style="background-image:url('images/gym-7.jpg')">
+            <div class="zone-card__overlay"></div>
+            <div class="zone-card__body">
+              <span class="zone-card__badge">Co. Antrim Exclusive</span>
+              <h3>Hammer Strength Zone</h3>
+              <p>The only official Hammer Strength Training Centre in County Antrim.</p>
+            </div>
+          </div>
+
+          <div class="zone-card" style="background-image:url('images/gym-4.jpg')">
+            <div class="zone-card__overlay"></div>
+            <div class="zone-card__body">
+              <h3>Free Weights</h3>
+              <p>JORDAN&reg; dumbbells up to 80kg, barbells &amp; full plate range.</p>
+            </div>
+          </div>
+
+          <div class="zone-card" style="background-image:url('images/gym-1.jpg')">
+            <div class="zone-card__overlay"></div>
+            <div class="zone-card__body">
+              <h3>Cardio Zone</h3>
+              <p>Treadmills, rowers, bikes &amp; cross-trainers for all abilities.</p>
+            </div>
+          </div>
+
+          <div class="zone-card" style="background-image:url('images/gym-12.jpg')">
+            <div class="zone-card__overlay"></div>
+            <div class="zone-card__body">
+              <h3>Functional Training</h3>
+              <p>Battle ropes, plyo boxes &amp; conditioning equipment.</p>
+            </div>
+          </div>
+
+          <div class="zone-card" style="background-image:url('images/gym-2.jpg')">
+            <div class="zone-card__overlay"></div>
+            <div class="zone-card__body">
+              <h3>Machine Suite</h3>
+              <p>Watson &amp; Hammer Strength machines for every muscle group.</p>
+            </div>
+          </div>
+
+          <div class="zone-card zone-card--inbody" style="background-image:url('images/gym-8.jpg')">
+            <div class="zone-card__overlay"></div>
+            <div class="zone-card__body">
+              <h3>InBody Station</h3>
+              <p>Body composition scanning — track real progress, included free.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TRANSFORMATIONS -->
+    <section class="transformations section section--dark" id="results">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag section__tag--red">Real Results</span>
+          <h2>Members Who <span class="text-red">Changed Everything.</span></h2>
+          <p>Real people. Real effort. Real results. These are the transformations happening inside Schoolhouse Gym every week.</p>
+        </div>
+        <div class="transformations__grid carousel-on-mobile" data-carousel>
+
+          <div class="transform-card fade-in">
+            <div class="transform-card__visual transform-card__visual--1">
+              <div class="transform-card__before">
+                <span class="transform-label">Before</span>
+                <svg viewBox="0 0 80 120" fill="none"><ellipse cx="40" cy="28" rx="18" ry="18" fill="rgba(255,255,255,0.08)"/><path d="M15 120c0-30 10-50 25-60s25 30 25 60" fill="rgba(255,255,255,0.05)"/></svg>
+              </div>
+              <div class="transform-card__after">
+                <span class="transform-label">After</span>
+                <svg viewBox="0 0 80 120" fill="none"><ellipse cx="40" cy="26" rx="14" ry="14" fill="rgba(229,57,53,0.3)"/><path d="M18 120c0-28 8-48 22-56s22 28 22 56" fill="rgba(229,57,53,0.15)"/></svg>
+              </div>
+              <div class="transform-card__result"><strong>-2.5st</strong><span>14 weeks</span></div>
+            </div>
+            <div class="transform-card__body">
+              <div class="transform-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>&ldquo;I&rsquo;d tried every diet and gym going. Schoolhouse was different &mdash; the Results Club gave me a plan that actually worked and coaches who kept me accountable.&rdquo;</blockquote>
+              <div class="transform-card__author"><strong>Claire M.</strong><span>Ballymena &bull; Fat Loss Programme</span></div>
+            </div>
+          </div>
+
+          <div class="transform-card fade-in">
+            <div class="transform-card__visual transform-card__visual--2">
+              <div class="transform-card__before">
+                <span class="transform-label">Before</span>
+                <svg viewBox="0 0 80 120" fill="none"><ellipse cx="40" cy="28" rx="16" ry="16" fill="rgba(255,255,255,0.08)"/><path d="M18 120c0-28 9-46 22-56s22 28 22 56" fill="rgba(255,255,255,0.05)"/></svg>
+              </div>
+              <div class="transform-card__after">
+                <span class="transform-label">After</span>
+                <svg viewBox="0 0 80 120" fill="none"><ellipse cx="40" cy="26" rx="15" ry="15" fill="rgba(229,57,53,0.3)"/><path d="M14 120c0-28 10-50 26-58s26 30 26 58" fill="rgba(229,57,53,0.2)"/></svg>
+              </div>
+              <div class="transform-card__result"><strong>+12kg</strong><span>6 months</span></div>
+            </div>
+            <div class="transform-card__body">
+              <div class="transform-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>&ldquo;Came in as a complete beginner with no idea what I was doing. Matt built me a programme from scratch. Six months later I&rsquo;m stronger than I&rsquo;ve ever been in my life.&rdquo;</blockquote>
+              <div class="transform-card__author"><strong>Ryan T.</strong><span>Ahoghill &bull; Muscle Building Programme</span></div>
+            </div>
+          </div>
+
+          <div class="transform-card fade-in">
+            <div class="transform-card__visual transform-card__visual--3">
+              <div class="transform-card__before">
+                <span class="transform-label">Before</span>
+                <svg viewBox="0 0 80 120" fill="none"><ellipse cx="40" cy="30" rx="17" ry="17" fill="rgba(255,255,255,0.08)"/><path d="M16 120c0-30 10-50 24-58s24 28 24 58" fill="rgba(255,255,255,0.05)"/></svg>
+              </div>
+              <div class="transform-card__after">
+                <span class="transform-label">After</span>
+                <svg viewBox="0 0 80 120" fill="none"><ellipse cx="40" cy="26" rx="13" ry="13" fill="rgba(229,57,53,0.3)"/><path d="M20 120c0-28 8-46 20-54s20 26 20 54" fill="rgba(229,57,53,0.15)"/></svg>
+              </div>
+              <div class="transform-card__result"><strong>-18kg</strong><span>20 weeks</span></div>
+            </div>
+            <div class="transform-card__body">
+              <div class="transform-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>&ldquo;The InBody scans kept me honest. Every month I could see exactly what was changing. It stopped me from giving up when the scales weren&rsquo;t moving.&rdquo;</blockquote>
+              <div class="transform-card__author"><strong>Sinead O.</strong><span>Cullybackey &bull; Results Club</span></div>
+            </div>
+          </div>
+
+        </div>
+        <p class="transformations__note fade-in">&#128247; Replace these with real member before/after photos and stories — ask members for permission first.</p>
+      </div>
+    </section>
+
+    <!-- PERSONAL TRAINING / COACHES -->
+    <section class="pt-apply section" id="personal-training">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag section__tag--red">Personal Training</span>
+          <h2>Train With a <span class="text-red">Coach</span></h2>
+          <p>No egos. No judgement. Just proper coaching and real results.</p>
+        </div>
+
+        <div class="pt-apply__process fade-in">
+          <div class="pt-apply__steps">
+            <div class="pt-step">
+              <div class="pt-step__num">1</div>
+              <div><h4>Browse Our Coaches</h4><p>Get to know the team and what they bring to your training.</p></div>
+            </div>
+            <div class="pt-step">
+              <div class="pt-step__num">2</div>
+              <div><h4>Send an Enquiry</h4><p>Tell us your goals and we&rsquo;ll match you with the right coach.</p></div>
+            </div>
+            <div class="pt-step">
+              <div class="pt-step__num">3</div>
+              <div><h4>Start Training</h4><p>Your coach builds a bespoke plan. Real results from session one.</p></div>
+            </div>
+          </div>
+          <div class="pt-apply__ctas">
+            <a href="mailto:info@schoolhousegym.co.uk?subject=Personal%20Training%20Enquiry" class="btn btn--red btn--lg">Apply for Personal Training</a>
+            <a href="mailto:info@schoolhousegym.co.uk?subject=Online%20Coaching%20Enquiry" class="btn btn--outline-red btn--lg">Apply for Online Coaching</a>
+          </div>
+        </div>
+
+        <div class="coaches__grid fade-in">
+          <div class="coach-card">
+            <div class="coach-card__photo">
+              <img src="images/matt-millar.jpg" alt="Matt Millar" loading="lazy">
+            </div>
+            <div class="coach-card__body">
+              <h3>Matt Millar</h3>
+              <span class="coach-card__role">Coach &amp; Owner</span>
+              <p>Nearly 8 years coaching thousands of sessions. Focused on progression, performance, and a purer quality of life for every member.</p>
+              <div class="coach-card__tags">
+                <span>Strength</span><span>Programming</span><span>Performance</span>
+              </div>
+              <a href="https://www.instagram.com/matthewmillar_6/" class="coach-card__social" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                @matthewmillar_6
+              </a>
+            </div>
+          </div>
+
+          <div class="coach-card">
+            <div class="coach-card__photo">
+              <img src="images/timmy-millar.jpg" alt="Timmy Millar" loading="lazy">
+            </div>
+            <div class="coach-card__body">
+              <h3>Timmy Millar</h3>
+              <span class="coach-card__role">Coach &amp; Online Coach</span>
+              <p>Started at SHG as a nervous beginner and turned it into a passion for helping others through a simple, sustainable approach.</p>
+              <div class="coach-card__tags">
+                <span>Online Coaching</span><span>Fat Loss</span><span>Muscle Gain</span>
+              </div>
+              <a href="https://www.instagram.com/timmyxmillar/" class="coach-card__social" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                @timmyxmillar
+              </a>
+            </div>
+          </div>
+
+          <div class="coach-card">
+            <div class="coach-card__photo">
+              <img src="images/sapphire-dudley.jpg" alt="Sapphire Dudley" loading="lazy">
+            </div>
+            <div class="coach-card__body">
+              <h3>Sapphire Dudley</h3>
+              <span class="coach-card__role">Alchemy Sports Therapy</span>
+              <p>Strength &amp; conditioning specialist offering dry needling, sports massage, and injury rehab for faster recovery and better performance.</p>
+              <div class="coach-card__tags">
+                <span>Sports Therapy</span><span>Dry Needling</span><span>Rehab</span>
+              </div>
+              <a href="https://www.instagram.com/smd_coaching/" class="coach-card__social" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                @smd_coaching
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RESULTS CLUB -->
+    <section class="results-club section" id="results-club">
+      <div class="container">
+        <div class="results-club__inner">
+          <div class="results-club__content fade-in">
+            <span class="section__tag section__tag--red">30-Day Trial</span>
+            <h2>The Results Club</h2>
+            <p class="results-club__lead">Our structured 30-day onboarding programme designed to kickstart your transformation and build habits that last.</p>
+            <ul class="results-club__list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>InBody scan on day one to set your baseline</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Bespoke training plan built around your goals</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Dedicated coach check-ins throughout the 30 days</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Nutritional guidance included</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Final InBody scan to measure your real results</li>
+            </ul>
+            <a href="#download-app" class="btn btn--red btn--lg">Start Your 30 Days</a>
+          </div>
+          <div class="results-club__visual" aria-hidden="true">
+            <div class="rc-card"><div class="rc-card__label">Week 1</div><div class="rc-card__title">Foundation</div><div class="rc-card__bar"><div class="rc-bar-fill" style="--w:25%"></div></div></div>
+            <div class="rc-card"><div class="rc-card__label">Week 2</div><div class="rc-card__title">Building</div><div class="rc-card__bar"><div class="rc-bar-fill" style="--w:50%"></div></div></div>
+            <div class="rc-card"><div class="rc-card__label">Week 3</div><div class="rc-card__title">Momentum</div><div class="rc-card__bar"><div class="rc-bar-fill" style="--w:75%"></div></div></div>
+            <div class="rc-card rc-card--final"><div class="rc-card__label">Week 4</div><div class="rc-card__title">Results</div><div class="rc-card__bar"><div class="rc-bar-fill" style="--w:100%"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLASS TIMETABLE -->
+    <section class="timetable section" id="classes">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Class Schedule</span>
+          <h2>Weekly <span class="text-red">Class Timetable</span></h2>
+          <p>All classes are included in your membership. Turn up, train hard, and let our coaches take care of the rest.</p>
+        </div>
+        <div class="timetable__accordion fade-in">
+          <button class="timetable__toggle" id="tt-toggle" aria-expanded="false" aria-controls="tt-body">
+            <span class="timetable__toggle-text"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>View Weekly Timetable</span>
+            <svg class="timetable__toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="timetable__body" id="tt-body" hidden>
+
+            <div class="tt-day">
+              <div class="tt-day__label">Monday</div>
+              <div class="tt-class tt-class--strength"><div class="tt-time">06:00</div><div class="tt-info"><strong>Early Bird Strength</strong><span>60 min &bull; Matt Millar</span></div><div class="tt-tag">Strength</div></div>
+              <div class="tt-class tt-class--conditioning"><div class="tt-time">09:30</div><div class="tt-info"><strong>Conditioning Circuit</strong><span>45 min &bull; Timmy Millar</span></div><div class="tt-tag">Conditioning</div></div>
+              <div class="tt-class tt-class--strength"><div class="tt-time">18:00</div><div class="tt-info"><strong>Evening Strength</strong><span>60 min &bull; Matt Millar</span></div><div class="tt-tag">Strength</div></div>
+            </div>
+
+            <div class="tt-day">
+              <div class="tt-day__label">Tuesday</div>
+              <div class="tt-class tt-class--functional"><div class="tt-time">07:00</div><div class="tt-info"><strong>Functional Training</strong><span>45 min &bull; Sapphire Dudley</span></div><div class="tt-tag">Functional</div></div>
+              <div class="tt-class tt-class--conditioning"><div class="tt-time">17:30</div><div class="tt-info"><strong>Circuit Training</strong><span>45 min &bull; Timmy Millar</span></div><div class="tt-tag">Conditioning</div></div>
+              <div class="tt-class tt-class--therapy"><div class="tt-time">19:00</div><div class="tt-info"><strong>Sports Therapy Session</strong><span>60 min &bull; Sapphire Dudley</span></div><div class="tt-tag">Therapy</div></div>
+            </div>
+
+            <div class="tt-day">
+              <div class="tt-day__label">Wednesday</div>
+              <div class="tt-class tt-class--strength"><div class="tt-time">06:00</div><div class="tt-info"><strong>Strength &amp; Conditioning</strong><span>60 min &bull; Matt Millar</span></div><div class="tt-tag">Strength</div></div>
+              <div class="tt-class tt-class--conditioning"><div class="tt-time">12:00</div><div class="tt-info"><strong>Lunchtime Burn</strong><span>30 min &bull; Timmy Millar</span></div><div class="tt-tag">Express</div></div>
+              <div class="tt-class tt-class--results"><div class="tt-time">18:30</div><div class="tt-info"><strong>Results Club Session</strong><span>60 min &bull; Matt Millar</span></div><div class="tt-tag">Results Club</div></div>
+            </div>
+
+            <div class="tt-day">
+              <div class="tt-day__label">Thursday</div>
+              <div class="tt-class tt-class--functional"><div class="tt-time">07:00</div><div class="tt-info"><strong>Functional Training</strong><span>45 min &bull; Sapphire Dudley</span></div><div class="tt-tag">Functional</div></div>
+              <div class="tt-class tt-class--strength"><div class="tt-time">17:30</div><div class="tt-info"><strong>Strength Training</strong><span>60 min &bull; Timmy Millar</span></div><div class="tt-tag">Strength</div></div>
+            </div>
+
+            <div class="tt-day">
+              <div class="tt-day__label">Friday</div>
+              <div class="tt-class tt-class--strength"><div class="tt-time">06:00</div><div class="tt-info"><strong>Early Bird Strength</strong><span>60 min &bull; Matt Millar</span></div><div class="tt-tag">Strength</div></div>
+              <div class="tt-class tt-class--conditioning"><div class="tt-time">09:30</div><div class="tt-info"><strong>Conditioning Class</strong><span>45 min &bull; Timmy Millar</span></div><div class="tt-tag">Conditioning</div></div>
+              <div class="tt-class tt-class--functional"><div class="tt-time">17:00</div><div class="tt-info"><strong>End of Week Burn</strong><span>45 min &bull; Sapphire Dudley</span></div><div class="tt-tag">Functional</div></div>
+            </div>
+
+            <div class="tt-day">
+              <div class="tt-day__label">Saturday</div>
+              <div class="tt-class tt-class--strength"><div class="tt-time">08:00</div><div class="tt-info"><strong>Weekend Warriors</strong><span>60 min &bull; Matt Millar</span></div><div class="tt-tag">Strength</div></div>
+              <div class="tt-class tt-class--conditioning"><div class="tt-time">10:00</div><div class="tt-info"><strong>Saturday Conditioning</strong><span>45 min &bull; Timmy Millar</span></div><div class="tt-tag">Conditioning</div></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP / PRICING -->
+    <section class="pricing section section--dark" id="membership">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Transparent Pricing</span>
+          <h2>Straightforward Pricing.<br><span class="text-red">No Hidden Fees.</span></h2>
+          <p>No contracts. No joining fees. No gimmicks. Just honest pricing that works around you.</p>
+        </div>
+
+        <div class="pricing-toggle fade-in" role="tablist">
+          <button class="pricing-tab pricing-tab--active" data-tab="membership" role="tab" aria-selected="true">Monthly Membership</button>
+          <button class="pricing-tab" data-tab="daypass" role="tab" aria-selected="false">Day Pass</button>
+        </div>
+
+        <!-- Membership panel -->
+        <div class="pricing-panel pricing-panel--active fade-in" id="panel-membership" role="tabpanel">
+          <div class="pricing-panel__grid">
+            <div class="pricing-main-card">
+              <div class="pricing-main-card__top">
+                <div class="pricing-main-card__label">Monthly Membership</div>
+                <div class="pricing-main-card__price"><strong>£34.99</strong><span>/month</span></div>
+                <p class="pricing-main-card__sub">No contract &bull; No joining fee &bull; Cancel anytime</p>
+              </div>
+              <ul class="pricing-main-card__features">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Unlimited gym access 7 days a week</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Full Hammer Strength Zone access</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>All 6 training zones included</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Free weights up to 80kg</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Results Club 30-day onboarding</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>InBody body composition scan</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Access to fitness classes</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Community &amp; coaching support</li>
+              </ul>
+              <a href="#download-app" class="btn btn--red btn--lg btn--full">Join Now &mdash; £34.99/mo</a>
+            </div>
+            <div class="pricing-side">
+              <div class="pricing-side__card">
+                <div class="pricing-side__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <h4>Personal Training</h4>
+                <p>Bespoke one-to-one sessions with an elite coach — fully tailored to your goals.</p>
+                <a href="#personal-training" class="btn btn--outline-red">Apply for PT</a>
+              </div>
+              <div class="pricing-side__card">
+                <div class="pricing-side__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                </div>
+                <h4>Online Coaching</h4>
+                <p>Train anywhere with a structured programme from our coaches. Delivered to your phone.</p>
+                <a href="#personal-training" class="btn btn--outline-red">Apply Online</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day Pass panel -->
+        <div class="pricing-panel fade-in" id="panel-daypass" role="tabpanel" hidden>
+          <div class="daypass-wrap">
+            <div class="daypass-card">
+              <div class="daypass-card__eyebrow">Try Before You Commit</div>
+              <div class="daypass-card__price"><strong>£10</strong><span>/day</span></div>
+              <p class="daypass-card__desc">Just come in, pay at reception, and train. No booking required. No commitment. No fuss.</p>
+              <ul class="daypass-card__features">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Full access to all 6 training zones</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Hammer Strength Zone included</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>All equipment available</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>No booking or pre-registration</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Pay at reception on arrival</li>
+              </ul>
+              <a href="#contact" class="btn btn--red btn--lg btn--full">Get Directions &mdash; Just Walk In</a>
+            </div>
+            <div class="daypass-info">
+              <div class="daypass-info__card">
+                <div class="daypass-info__icon">&#128205;</div>
+                <h4>Where to Find Us</h4>
+                <p>Unit 8, 58 Cullybackey Link Rd, Ahoghill, Ballymena BT42 1LA</p>
+              </div>
+              <div class="daypass-info__card">
+                <div class="daypass-info__icon">&#9200;</div>
+                <h4>When We&rsquo;re Open</h4>
+                <p>Mon&ndash;Fri: 5am &ndash; 10pm<br>Sat: 6am &ndash; 4pm<br>Sun: 10am &ndash; 4pm</p>
+              </div>
+              <div class="daypass-info__card daypass-info__card--highlight">
+                <div class="daypass-info__icon">&#128170;</div>
+                <h4>Like What You See?</h4>
+                <p>Join the same day for £34.99/month. Ask at reception and we&rsquo;ll set you up on the spot.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust badges — always visible -->
+        <div class="pricing-trust fade-in">
+          <div class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <strong>No Joining Fee</strong>
+            <span>Start training immediately with zero upfront cost.</span>
+          </div>
+          <div class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            <strong>No Contract</strong>
+            <span>Month-to-month. Stay because you want to, not because you have to.</span>
+          </div>
+          <div class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+            <strong>Cancel Anytime</strong>
+            <span>No notice periods. No penalties. Just simple, honest membership.</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- APP SECTION -->
+    <section class="app-section section section--dark" id="download-app">
+      <div class="container">
+        <div class="app-section__inner">
+
+          <!-- Phone mockup -->
+          <div class="app-mockup fade-in" aria-hidden="true">
+            <div class="app-mockup__glow"></div>
+            <div class="app-mockup__phone">
+              <div class="app-mockup__notch"></div>
+              <div class="app-mockup__screen">
+                <div class="app-screen__header">
+                  <div class="app-screen__logo">Schoolhouse <span>GYM</span></div>
+                  <div class="app-screen__dot"></div>
+                </div>
+                <div class="app-screen__card">
+                  <div class="app-screen__card-label">Your Membership</div>
+                  <div class="app-screen__card-name">Active Member</div>
+                  <div class="app-screen__card-price">£34.99/mo</div>
+                </div>
+                <div class="app-screen__checkin">
+                  <div class="app-screen__checkin-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div class="app-screen__checkin-label">Tap to Check In</div>
+                </div>
+                <div class="app-screen__stats">
+                  <div class="app-screen__stat"><strong>28</strong><span>Sessions</span></div>
+                  <div class="app-screen__stat"><strong>12kg</strong><span>Lost</span></div>
+                  <div class="app-screen__stat"><strong>4★</strong><span>Rating</span></div>
+                </div>
+                <div class="app-screen__bar"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="app-section__content fade-in">
+            <span class="section__tag section__tag--red">Join Today</span>
+            <h2>Everything You Need.<br><span class="text-red">In One App.</span></h2>
+            <p class="app-section__lead">We manage all memberships through <strong>ClubLink</strong> &mdash; a free app available on iPhone and Android. Download it once and you&rsquo;re set up in under two minutes.</p>
+
+            <div class="app-steps">
+              <div class="app-step-item">
+                <div class="app-step-item__num">1</div>
+                <div class="app-step-item__content">
+                  <h4>Download ClubLink</h4>
+                  <p>Search <em>&ldquo;ClubLink&rdquo;</em> on the App Store or Google Play and install it free.</p>
+                </div>
+              </div>
+              <div class="app-step-item">
+                <div class="app-step-item__num">2</div>
+                <div class="app-step-item__content">
+                  <h4>Add Schoolhouse Gym</h4>
+                  <p>Tap <em>&ldquo;Add Member&rdquo;</em> and enter the phone number you registered with &mdash; or scan the QR code at reception.</p>
+                </div>
+              </div>
+              <div class="app-step-item">
+                <div class="app-step-item__num">3</div>
+                <div class="app-step-item__content">
+                  <h4>You&rsquo;re Ready to Train</h4>
+                  <p>Your membership is active. Check in at the door and get to work. That&rsquo;s it.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="app-badges">
+              <a href="https://apps.apple.com/gb/app/clublink/id1476551554" class="app-badge app-badge--apple" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <div>
+                  <span>Download on the</span>
+                  <strong>App Store</strong>
+                </div>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.clubmanagercentral.myclub" class="app-badge app-badge--google" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.3.17.64.24.99.19l12.6-7.27-2.8-2.8-10.79 9.88zM.73 1.94C.27 2.4 0 3.12 0 4.04v15.92c0 .92.27 1.64.73 2.1l.11.11L8.9 14.1v-.2L.84 1.83l-.11.11zm17.58 7.7l-2.18-1.26-3.11 3.11 3.11 3.11 2.19-1.26c.62-.36.99-.94.99-1.85 0-.91-.38-1.49-1-1.85zM4.17.24l12.6 7.27-2.8 2.8L3.18.43A1.23 1.23 0 0 0 4.17.24z"/></svg>
+                <div>
+                  <span>Get it on</span>
+                  <strong>Google Play</strong>
+                </div>
+              </a>
+            </div>
+            <p class="app-section__note">Free to download &bull; Available on iOS &amp; Android &bull; Setup takes under 2 minutes</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section section--dark" id="faq">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">FAQ</span>
+          <h2>Got Questions? <span class="text-red">We&rsquo;ve Got Answers.</span></h2>
+          <p>Everything you need to know before walking through our doors.</p>
+        </div>
+        <div class="faq__list fade-in">
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">Is there parking at the gym?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>Yes &mdash; there is free parking available directly at the gym at Unit 8, 58 Cullybackey Link Rd, Ahoghill. No parking stress before your session.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">Do I need experience to join?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>Absolutely not. We welcome complete beginners through to experienced athletes. Our Results Club onboarding programme is specifically designed to get you started the right way, regardless of where you&rsquo;re beginning from.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">Can I try before I join?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>Yes &mdash; we offer a £10 day pass. Just come in, pay at reception, and train. No booking needed. See the equipment, meet the coaches, feel the atmosphere, and decide from there.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">Is there a joining fee?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>No joining fee, ever. You pay £34.99/month and that&rsquo;s it. No setup costs, no admin fees, no hidden charges. What you see is what you pay.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">How do I cancel my membership?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>Cancel any time through the ClubLink app or by speaking to a member of the team at reception. No notice periods, no penalties, no awkward conversations. We&rsquo;d obviously love to keep you, but we&rsquo;ll never hold you to something that isn&rsquo;t working for you.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">What should I bring for my first visit?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>Training gear, trainers, a water bottle, and a towel. If you&rsquo;re a new member, bring the phone number you registered with to access the ClubLink app at the door. That&rsquo;s genuinely it.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">Do you offer student or concession rates?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>Get in touch and let us know your situation. We&rsquo;ll always try to find something that works. Email us at <a href="mailto:info@schoolhousegym.co.uk" style="color:var(--red-light)">info@schoolhousegym.co.uk</a> or speak to us at reception.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__trigger" aria-expanded="false">What is the InBody scan and is it included?<span class="faq-item__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+            <div class="faq-item__body" role="region"><p>The InBody scan is a clinically accurate body composition analysis — it measures your muscle mass, body fat percentage, water retention and more. It&rsquo;s far more useful than just weighing yourself. It&rsquo;s included with your membership as part of the Results Club programme.</p></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM PREVIEW -->
+    <section class="instagram section section--dark" id="instagram">
+      <div class="container">
+        <div class="instagram__header fade-in">
+          <div>
+            <span class="section__tag section__tag--red">Follow Us</span>
+            <h2>We&rsquo;re on <span class="text-red">Instagram</span></h2>
+            <p>Follow <strong>@schoolhouse_gym</strong> for daily training content, member results, and behind-the-scenes gym life.</p>
+          </div>
+          <a href="https://www.instagram.com/schoolhouse_gym/" class="btn btn--red" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            @schoolhouse_gym
+          </a>
+        </div>
+        <div class="instagram__grid fade-in">
+          <a href="https://www.instagram.com/schoolhouse_gym/" class="instagram-post" target="_blank" rel="noopener" style="background-image:url('images/gym-7.jpg')"><div class="instagram-post__overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div></a>
+          <a href="https://www.instagram.com/schoolhouse_gym/" class="instagram-post" target="_blank" rel="noopener" style="background-image:url('images/gym-4.jpg')"><div class="instagram-post__overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div></a>
+          <a href="https://www.instagram.com/schoolhouse_gym/" class="instagram-post" target="_blank" rel="noopener" style="background-image:url('images/matt-millar.jpg')"><div class="instagram-post__overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div></a>
+          <a href="https://www.instagram.com/schoolhouse_gym/" class="instagram-post" target="_blank" rel="noopener" style="background-image:url('images/gym-2.jpg')"><div class="instagram-post__overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div></a>
+          <a href="https://www.instagram.com/schoolhouse_gym/" class="instagram-post" target="_blank" rel="noopener" style="background-image:url('images/timmy-millar.jpg')"><div class="instagram-post__overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div></a>
+          <a href="https://www.instagram.com/schoolhouse_gym/" class="instagram-post" target="_blank" rel="noopener" style="background-image:url('images/gym-5.jpg')"><div class="instagram-post__overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div></a>
+        </div>
+        <p class="instagram__note fade-in">&#128161; To show live posts, connect a free Instagram widget from <a href="https://behold.so" target="_blank" rel="noopener" style="color:var(--red-light)">Behold.so</a> or <a href="https://elfsight.com" target="_blank" rel="noopener" style="color:var(--red-light)">Elfsight</a>.</p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials section section--dark" id="testimonials">
+      <div class="container">
+        <div class="section__header section__header--light fade-in">
+          <span class="section__tag section__tag--red">Member Reviews</span>
+          <h2>What Our <span class="text-red">Members Say</span></h2>
+          <p>Real people. Real results. Real community.</p>
+        </div>
+        <div class="testimonials__grid carousel-on-mobile" data-carousel>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;Great gym. Equipment top notch, well laid out, spacious. Staff 100%. You can tell a lot of hard work and dedication has gone into creating this place.&rdquo;</blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-avatar" style="background:linear-gradient(135deg,#e53935,#b71c1c)">JM</div>
+              <div><div class="testimonial-name">Jamie M.</div><div class="testimonial-location">Ballymena Member</div></div>
+            </div>
+          </div>
+          <div class="testimonial-card testimonial-card--featured fade-in">
+            <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;Amazing facility with top class equipment. Covers just about anything you want to do. Fantastic atmosphere and the coaching team genuinely care about your progress.&rdquo;</blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-avatar" style="background:linear-gradient(135deg,#e53935,#7f0000)">SR</div>
+              <div><div class="testimonial-name">Sarah R.</div><div class="testimonial-location">Ahoghill Member</div></div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;Fantastic place. Plenty of equipment &mdash; covers anything you want to do. The Results Club got me started right and I&rsquo;ve never looked back. Best decision I made.&rdquo;</blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-avatar" style="background:linear-gradient(135deg,#c62828,#e53935)">PK</div>
+              <div><div class="testimonial-name">Paul K.</div><div class="testimonial-location">Cullybackey Member</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Inside Schoolhouse Gym</span>
+          <h2>See the <span class="text-red">Facility</span></h2>
+        </div>
+        <div class="gallery__grid fade-in">
+          <div class="gallery-item gallery-item--wide" style="background-image:url('images/gym-7.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-1.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-2.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-12.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-13.jpg')"></div>
+          <div class="gallery-item gallery-item--wide" style="background-image:url('images/gym-6.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-3.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-4.jpg')"></div>
+          <div class="gallery-item gallery-item--wide" style="background-image:url('images/gym-8.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-5.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-9.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-10.jpg')"></div>
+          <div class="gallery-item gallery-item--wide" style="background-image:url('images/gym-11.jpg')"></div>
+          <div class="gallery-item" style="background-image:url('images/gym-14.jpg')"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__tag">Find Us</span>
+          <h2>Come and <span class="text-red">Train With Us</span></h2>
+        </div>
+        <div class="contact__grid">
+          <div class="contact__info fade-in">
+            <div class="hours-widget">
+              <h3>Opening Hours</h3>
+              <div class="hours-widget__list">
+                <div class="hours-widget__row"><span>Monday &ndash; Friday</span><strong>5:00am &ndash; 10:00pm</strong></div>
+                <div class="hours-widget__row"><span>Saturday</span><strong>6:00am &ndash; 4:00pm</strong></div>
+                <div class="hours-widget__row"><span>Sunday</span><strong>10:00am &ndash; 4:00pm</strong></div>
+              </div>
+            </div>
+            <div class="contact__details">
+              <div class="contact__detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Unit 8, 58 Cullybackey Link Rd,<br>Ahoghill, Ballymena BT42 1LA</span>
+              </div>
+              <div class="contact__detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:02825567841">028 2556 7841</a>
+              </div>
+              <div class="contact__detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <a href="mailto:info@schoolhousegym.co.uk">info@schoolhousegym.co.uk</a>
+              </div>
+              <div class="contact__social">
+                <a href="https://www.instagram.com/schoolhouse_gym/" target="_blank" rel="noopener" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                  Instagram
+                </a>
+                <a href="https://www.facebook.com/p/Schoolhouse-Gym-100063679987630/" target="_blank" rel="noopener" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                  Facebook
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__map fade-in">
+            <iframe title="Schoolhouse Gym location" src="https://maps.google.com/maps?q=Unit+8+58+Cullybackey+Link+Rd+Ahoghill+Ballymena+BT42+1LA&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA STRIP -->
+    <section class="cta-strip">
+      <div class="container">
+        <div class="cta-strip__inner fade-in">
+          <div class="cta-strip__text">
+            <h3>Ready to Start?</h3>
+            <p>Join County Antrim&rsquo;s best gym for just £34.99/month. No contract, no joining fee, no excuses.</p>
+          </div>
+          <a href="#download-app" class="btn btn--white btn--lg">Join Now &mdash; £34.99/mo</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="nav__logo footer__logo"><span class="logo-s">School</span><span class="logo-h">house</span>&nbsp;<span class="logo-g">GYM</span></div>
+          <p>County Antrim&rsquo;s only official Hammer Strength Training Centre. Family-owned, community-driven, results-focused.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/schoolhouse_gym/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.facebook.com/p/Schoolhouse-Gym-100063679987630/" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#personal-training">Our Coaches</a></li>
+            <li><a href="#results-club">Results Club</a></li>
+            <li><a href="#membership">Membership</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Opening Hours</h4>
+          <ul class="footer__hours">
+            <li><span>Mon &ndash; Fri</span><strong>5am &ndash; 10pm</strong></li>
+            <li><span>Saturday</span><strong>6am &ndash; 4pm</strong></li>
+            <li><span>Sunday</span><strong>10am &ndash; 4pm</strong></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__contact-list">
+            <li><a href="tel:02825567841">028 2556 7841</a></li>
+            <li><a href="mailto:info@schoolhousegym.co.uk">info@schoolhousegym.co.uk</a></li>
+            <li>Unit 8, 58 Cullybackey Link Rd,<br>Ahoghill, Ballymena BT42 1LA</li>
+          </ul>
+          <a href="#download-app" class="btn btn--red" style="margin-top:20px;display:inline-flex">Join Now</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Schoolhouse Gym. All rights reserved. Ahoghill, Ballymena. &bull; <a href="privacy-policy.html" style="color:inherit;opacity:0.6">Privacy Policy</a></p>
+        <p class="footer__credit">Website by <a href="https://maogtn.github.io/gtn-media/" target="_blank" rel="noopener">GTN Media</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Join CTA -->
+  <a href="#download-app" class="float-cta" id="float-cta">Join Now &mdash; £34.99/mo</a>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/442825567841?text=Hi%2C%20I%27d%20like%20to%20find%20out%20more%20about%20Schoolhouse%20Gym" class="whatsapp-btn" id="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Cookie Consent Banner -->
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent" hidden>
+    <div class="cookie-banner__inner">
+      <div class="cookie-banner__text">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <p>We use cookies to improve your experience and analyse site traffic via Google Analytics. <a href="privacy-policy.html">Privacy Policy</a></p>
+      </div>
+      <div class="cookie-banner__btns">
+        <button id="cookie-accept" class="btn btn--red btn--sm">Accept All</button>
+        <button id="cookie-decline" class="cookie-decline-btn">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

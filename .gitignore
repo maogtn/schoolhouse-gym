@@ -1,0 +1,8 @@
+# Local dev screenshots at project root — not part of the website
+/*.PNG
+/*.png
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
