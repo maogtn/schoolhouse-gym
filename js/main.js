@@ -158,6 +158,29 @@
     });
   });
 
+  /* ── App join popup (tap the phone mockup) ── */
+  var phoneTrigger = document.getElementById('app-phone-trigger');
+  var appPopup     = document.getElementById('app-popup');
+  if (phoneTrigger && appPopup) {
+    var openAppPopup = function () {
+      appPopup.hidden = false;
+      document.body.style.overflow = 'hidden';
+    };
+    var closeAppPopup = function () {
+      appPopup.hidden = true;
+      document.body.style.overflow = '';
+    };
+    phoneTrigger.addEventListener('click', openAppPopup);
+    phoneTrigger.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openAppPopup(); }
+    });
+    document.getElementById('app-popup-close').addEventListener('click', closeAppPopup);
+    document.getElementById('app-popup-backdrop').addEventListener('click', closeAppPopup);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !appPopup.hidden) closeAppPopup();
+    });
+  }
+
   /* ── Mobile carousels (auto-rotating) ── */
   function initCarousels() {
     if (!window.matchMedia('(max-width: 768px)').matches) return;
