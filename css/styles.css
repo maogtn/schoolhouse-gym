@@ -1382,7 +1382,19 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-radius: var(--radius);
   padding: 24px;
 }
-.daypass-info__icon { font-size: 1.5rem; margin-bottom: 10px; }
+.daypass-info__icon {
+  width: 42px;
+  height: 42px;
+  background: var(--red-glow);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--red);
+  margin-bottom: 14px;
+}
+.daypass-info__icon svg { width: 21px; height: 21px; }
+.daypass-info__card--highlight .daypass-info__icon { background: rgba(255,255,255,0.12); }
 .daypass-info__card h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 .daypass-info__card p  { font-size: 0.875rem; color: var(--text-muted); line-height: 1.65; }
 .daypass-info__card--highlight {
